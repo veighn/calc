@@ -78,9 +78,9 @@ namespace Calc_Test_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            label4.Text = "";
+            textBox1.Text = "";// Clears TextBox1
+            textBox2.Text = "";// Clears TextBox2
+            label4.Text = "";// Clears Label4
 
         }
 
@@ -88,26 +88,26 @@ namespace Calc_Test_2
 
         private void button1_MouseHover(object sender, EventArgs e)
         {
-            button1.BackColor = Color.Black;
-            button1.ForeColor = Color.White;
+            button1.BackColor = Color.Black;// Changes BackColor to black
+            button1.ForeColor = Color.White;// Changes ForeColor to White
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.BackColor = Color.White;
-            button1.ForeColor = Color.Black;
+            button1.BackColor = Color.White;// Changes ForeColor to White
+            button1.ForeColor = Color.Black;// Changes BackColor to black
         }
 
         private void button2_MouseHover(object sender, EventArgs e)
         {
-            button2.BackColor = Color.Black;
-            button2.ForeColor = Color.White;
+            button2.BackColor = Color.Black;// Changes BackColor to black
+            button2.ForeColor = Color.White;// Changes ForeColor to White
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
         {
-            button2.BackColor = Color.Black;
-            button2.ForeColor = Color.White;
+            button2.BackColor = Color.Black;// Changes BackColor to black
+            button2.ForeColor = Color.White;// Changes ForeColor to White
         }
 
     
